@@ -1,0 +1,330 @@
+@media screen and (min-width:1024px){
+    .experiencia{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 32px;
+        color: var(--preto-100, #464646);
+        font-family: Raleway;
+    }
+    
+    .experiencia_title{
+        color: var(--preto-100, #464646);
+        text-align: center;
+        font-size: 32px;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    
+    .experiencia_container{
+        display: flex;
+        width: 1136px;
+        height: 406px;
+        align-items: center;
+        gap: 16px;
+    }
+    
+    .experiencia_image{
+        width: 752px;
+        flex-shrink: 0;
+        align-self: stretch;
+    }
+    
+    .experiencia_proyecto{
+        color: var(--preto-100, #464646);
+        font-size: 22px;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    
+    .experiencia_desc{
+        color: var(--preto-100, #464646);
+        font-size: 16px;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        display: flex;
+        flex-direction: column;
+        align-self: stretch;
+    
+    }
+    
+    .experiencia_container_botones{
+        display: flex;
+        width: 560px;
+        align-items: flex-start;
+        gap: 16px;
+    }
+    
+    .experiencia_boton_repositorio{
+        display: flex;
+        padding: 16px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border: 1px solid var(--azul-100, #2A7AE4);
+        color: var(--azul-100, #2A7AE4);
+        font-size: 16px;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    
+    .experiencia_boton_demo{
+        display: flex;
+        padding: 16px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        background: var(--azul-100, #2A7AE4);
+        color: var(--preto-branco, #FFF);
+        font-size: 16px;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        border-color: #2A7AE4;
+    }
+    
+    .experiencia_container_juego{
+        display: flex;
+        width: 1136px;
+        height: 406px;
+        align-items: center;
+        gap: 16px;
+        margin-top: 64px;
+    }
+    
+    .experiencia_container_encriptador{
+        display: flex;
+        width: 1136px;
+        height: 406px;
+        align-items: center;
+        gap: 16px;
+        margin-top: 64px;
+    }
+
+    .experiencia_image_juego_tablet{
+        display: none;
+    }
+
+    .experiencia_image_juego_tablet_segundo{
+        display: none;
+    }
+    
+    
+}
+
+/* Tablet */
+
+@media screen and (min-width:768px)and (max-width:1023px) {
+    .experiencia{
+        display: flex;
+        padding: 32px;
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+        align-self: stretch;
+        color: var(--preto-100, #464646);
+        font-family: Raleway;
+        
+    }
+    
+    .experiencia_title{
+        color: var(--preto-100, #464646);
+        text-align: center;
+        font-family: Raleway;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    
+    .experiencia_container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+        align-self: stretch;
+    }
+    
+    .experiencia_image{
+        height: 320px;
+        align-self: stretch;
+        margin-top:64px;
+    }
+    
+    .experiencia_proyecto{
+        color: var(--preto-100, #464646);
+        font-family: Raleway;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;  
+    }
+    
+    .experiencia_desc{
+        color: var(--preto-100, #464646);
+        font-family: Raleway;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    
+    }
+    
+    .experiencia_container_botones{
+        display: flex;
+        width: 560px;
+        align-items: flex-start;
+        gap: 16px;
+        margin-bottom: 64px;
+    }
+    
+    .experiencia_boton_repositorio{
+        color: var(--azul-100, #2A7AE4);
+        font-family: Raleway;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        display: flex;
+        padding: 12px 16px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .experiencia_boton_demo{
+        display: flex;
+        padding: 12px 16px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        background: var(--azul-100, #2A7AE4);
+        color: var(--preto-branco, #FFF);
+        font-family: Raleway;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+    
+    .image_juego_desktop{
+        display: none;
+    }
+    
+    .image_juego_segundo_desktop{
+        display: none;
+    }
+}
+
+/* phone */
+
+@media screen and (max-width:767px)and (min-width:0px) {
+    .experiencia{
+        display: flex;
+        padding: 32px;
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+        align-self: stretch;  
+        
+    }
+    
+    .experiencia_title{
+        color: var(--preto-100, #464646);
+        text-align: center;
+        font-family: Raleway;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    
+    .experiencia_container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+        align-self: stretch;
+    }
+    
+    .experiencia_image{
+        height: 144px;
+        width: 296px;
+        align-self: stretch;
+    }
+    
+    .experiencia_proyecto{
+        color: var(--preto-100, #464646);
+        font-family: Raleway;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    
+    .experiencia_desc{
+        color: var(--preto-100, #464646);
+        font-family: Raleway;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    
+    }
+    
+    .experiencia_container_botones{
+        display: flex;
+        align-items: flex-start;
+        gap: 16px;
+        align-self: stretch;
+        margin-bottom: 64px;
+    }
+    
+    .experiencia_boton_repositorio{
+        display: flex;
+        padding: 12px 16px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border: 1px solid var(--azul-100, #2A7AE4);
+        color: var(--azul-100, #2A7AE4);
+        font-family: Raleway;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+    
+    .experiencia_boton_demo{
+        display: flex;
+        padding: 12px 16px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        background: var(--azul-100, #2A7AE4);
+        color: var(--preto-branco, #FFF);
+        font-family: Raleway;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+    .image_juego_desktop{
+        display: none;
+    }
+    
+    .image_juego_segundo_desktop{
+        display: none;
+    }
+}
+  

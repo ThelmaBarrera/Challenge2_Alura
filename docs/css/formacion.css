@@ -1,0 +1,205 @@
+@media screen and (min-width:1024px){
+    .formacion{
+        display: flex;
+        padding: 82px;
+        flex-direction: column;
+        align-items: center;
+        gap: 32px;
+        align-self: stretch;
+        background: var(--azul-10, #EAF2FD);
+        margin-top: 88px;
+    }
+    
+    .formacion_title{
+        color: var(--preto-100, #464646);
+        text-align: center;
+        font-size: 32px;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    
+    .formacion_items{
+        list-style-type: none;
+        display: flex;
+        align-items: flex-start;
+        gap: 16px;
+    
+    }
+    
+    .formacion_imagen_container{
+        display: flex;
+        width: 368px;
+        height: 286px;
+        padding: 16px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        background: var(--preto-branco, #FFF);
+    }
+    
+    .formacion_imagen{
+        width: 192px;
+        height: 130px;
+        flex-shrink: 0;
+    }
+    
+    .formacion_specific{
+        color: var(--preto-100, #464646);
+        font-size: 22px;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    
+    .formacion_anho{
+        color: var(--preto-100, #464646);
+        font-size: 16px;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    
+}
+
+/* Tablet */
+
+@media screen and (min-width:768px)and (max-width:1023px) {
+    .formacion{
+        display: flex;
+        padding: 82px;
+        flex-direction: column;
+        align-items: center;
+        gap: 32px;
+        align-self: stretch;
+        background: var(--azul-10, #EAF2FD);
+        margin-top: 82px;
+    }
+    
+    .formacion_title{
+        color: var(--preto-100, #464646);
+        text-align: center;
+        font-family: Raleway;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    
+    .formacion_items{
+        list-style-type: none;
+        display: flex;
+        align-items: flex-start;
+        gap: 16px;
+    
+    }
+    
+    .formacion_imagen_container{
+        display: flex;
+        height: 118px;
+        padding: 16px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        align-self: stretch;
+        background: var(--preto-branco, #FFF);
+    }
+    
+    .formacion_imagen{
+        width: 102px;
+        height: 60px;
+    }
+    
+    .formacion_specific{
+        color: var(--preto-100, #464646);
+        font-family: Raleway;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    
+    .formacion_anho{
+        color: var(--preto-100, #464646);
+        font-family: Raleway;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    
+    
+}
+
+/* phone */
+
+@media screen and (max-width:767px)and (min-width:0px) {
+    .formacion{
+        display: flex;
+        padding: 32px;
+        flex-direction: column;
+        align-items: center;
+        gap: 32px;
+        align-self: stretch;
+        background: var(--azul-10, #EAF2FD);
+        margin-top: 32px;
+    }
+    
+    .formacion_title{
+        color: var(--preto-100, #464646);
+        text-align: center;
+        font-family: Raleway;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    
+    .formacion_items{
+        list-style-type: none;
+        align-items: flex-start;
+        gap: 16px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    
+    }
+    
+    .formacion_imagen_container{
+        display: flex;
+        height: 118px;
+        padding: 16px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        align-self: stretch;
+        background: var(--preto-branco, #FFF);
+    }
+    
+    .formacion_imagen{
+        width: 84px;
+        height: 58px;
+    }
+    
+    .formacion_specific{
+        color: var(--preto-100, #464646);
+        font-family: Raleway;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    
+    .formacion_anho{
+        color: var(--preto-100, #464646);
+        font-family: Raleway;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    
+  
+}

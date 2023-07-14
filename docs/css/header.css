@@ -1,0 +1,178 @@
+@media screen and (min-width:1024px){
+
+body{
+    background-color: #F5F5F5;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    color: #464646;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    margin-left: 0%;
+    margin-right: 0%;
+ 
+}
+
+
+
+.header_page{
+    margin: auto;
+    padding-left: 20%;
+    padding-right: 20%;
+
+}
+
+.img_stars{
+    width: 24px;
+    height: 24px;
+    padding-right: 8px;
+}
+
+.header_info{
+    display: flex;
+    width: 1136px;
+    padding: 32px 0px;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.mail{
+    display:none;
+}
+
+.header_star{
+    display: flex;
+    
+}
+
+.header_info_list{
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    list-style-type: none;
+}
+
+}
+
+/* Tablet */
+
+@media screen and (min-width:768px)and (max-width:1023px) {
+
+    body{
+        background-color: #F5F5F5;
+        font-family: 'Montserrat', sans-serif;
+        font-family: 'Raleway', sans-serif;
+        color: #464646;
+        align-content: center;
+        justify-content: center;
+        
+     
+    }
+
+    .header_page{
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    
+    .header_info{
+        display: flex;
+        height: 56px;
+        padding: 16px 32px;
+        justify-content: space-between;
+        align-items: center;
+        align-self: stretch;
+    }
+
+    .img_stars{
+        width: 24px;
+        height: 24px;
+        float:left;
+    }
+
+    
+
+    .header_star{
+        display: flex;
+       
+    }
+
+    .header_info_list{
+        display: none;
+        list-style-type: none;
+    }
+    
+    .mail{
+        color: var(--preto-100, #464646);
+        font-size: 16px;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    
+    }
+    
+}
+
+/* phone */
+
+@media screen and (max-width:767px)and (min-width:0px) {
+
+    body{
+        background-color: #F5F5F5;
+        font-family: 'Montserrat', sans-serif;
+        font-family: 'Raleway', sans-serif;
+        color: #464646;
+        align-content: center;
+        justify-content: center;
+        
+        
+     
+    }
+
+    
+    
+    .header_info{
+        display: flex;
+        height: 56px;
+        padding: 16px 32px;
+        justify-content: space-between;
+        align-items: center;
+        align-self: stretch;
+    }
+
+    .img_stars{
+        width: 24px;
+        height: 24px;
+        float:left;
+    }
+
+    .fulana{
+        float: left;
+    }
+
+    .header_star{
+        display: flex;
+        
+    }
+
+    .header_info_list{
+        display: none;
+        list-style-type: none;
+    }
+    
+    .mail{
+        color: var(--preto-100, #464646);
+        font-size: 14px;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        list-style-type: none;
+    }
+    
+}

@@ -1,0 +1,149 @@
+@media screen and (min-width:1024px){
+    .hello{
+        display: flex;
+        flex-direction: column;
+        align-self: stretch;
+        font-weight: 700;
+        line-height: normal;
+        font-size: 52px;
+
+    }
+
+    .developer_sm{
+        display: none;
+    }
+
+    .header_sm{
+        display: flex;
+        align-items: flex-start;
+        gap: 32px;
+        list-style-type: none;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .developer{
+        width: 368px;
+        height: 368px;
+        flex-shrink: 0;
+        float: right;
+    }
+
+    .info_dev{
+        display: flex;
+        width: 751px;
+        flex-direction: column;
+        align-items: flex-start;
+        flex-shrink: 0;
+    }
+
+    .header_info_dev{
+        display: flex;
+        width: 1136px;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+/* Tablet */
+
+@media screen and (min-width:768px)and (max-width:1023px) {
+    .hello{
+        display: flex;
+        flex-direction: column;
+        align-self: stretch;
+        font-weight: 700;
+        line-height: normal;
+        font-size: 22px;
+
+    }
+
+    .developer_sm{
+        display: none;
+    }
+
+    .header_sm{
+        display: flex;
+        align-items: flex-start;
+        gap: 32px;
+        list-style-type: none;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .developer{
+        width: 146px;
+        height: 146px;
+        float: right;
+    }
+
+    .info_dev{
+        display: flex;
+        width: 524px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap:8px;
+    }
+
+    .header_info_dev{
+        display: flex;
+        padding: 32px;
+        align-items: center;
+        gap: 32px;
+        align-self: stretch;
+    }
+   
+    
+}
+
+/* phone */
+
+@media screen and (max-width:767px)and (min-width:0px) {
+
+    .hello{
+        display: flex;
+        flex-direction: column;
+        align-self: stretch;
+        font-weight: 700;
+        line-height: normal;
+        font-size: 22px;
+
+    }
+
+    .header_sm{
+        display: flex;
+        align-items: flex-start;
+        gap: 32px;
+        list-style-type: none;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .developer{
+        display: none;
+    }
+    .developer_sm{
+        width: 98px;
+        height: 98px;
+    }
+
+    .info_dev{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+        align-self: stretch;
+    }
+
+
+    .header_info_dev{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+        align-self: stretch;
+        padding-left: 20%;
+        padding-right: 20;
+    }
+    
+}

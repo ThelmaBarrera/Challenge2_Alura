@@ -1,0 +1,128 @@
+@media screen and (min-width:1024px){
+    .sobre_mi{
+        background-color: #EAF2FD;
+        font-family: Raleway;
+        display: flex;
+        padding: 64px;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        align-self: stretch;
+        margin-top: 32px;
+        
+    }
+    .sobre_mi_box{
+        display: flex;
+        width: 1136px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .sobre_mi_title{
+        color: var(--preto-100, #464646);
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-bottom: 0%;
+        padding-bottom: 0%;
+    }
+    
+    .sobre_mi_parrafo{
+        display: flex;
+        width: 751px;
+        flex-direction: column;
+    }
+}
+
+/* Tablet */
+
+@media screen and (min-width:768px)and (max-width:1023px) {
+
+    .sobre_mi{
+        display: flex;
+        padding: 32px;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        align-self: stretch;
+        background: var(--azul-10, #EAF2FD);
+        width: 100%;
+        
+    }
+    .sobre_mi_box{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+        align-self: stretch;
+    }
+
+    .sobre_mi_title{
+        color: var(--preto-100, #464646);
+        font-size: 22px;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .sobre_mi_parrafo{
+        display: flex;
+        width: 751px;
+        flex-direction: column;
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .firma{
+        width: 140px;
+        height: 52px;
+    }
+}
+
+/* phone */
+
+@media screen and (max-width:767px)and (min-width:0px) {
+    .sobre_mi{
+        display: flex;
+        padding: 16px;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        align-self: stretch;
+        background: var(--azul-10, #EAF2FD);
+        width: 100%;
+    }
+    .sobre_mi_box{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+        align-self: stretch;
+                
+    }
+
+    .sobre_mi_title{
+        color: var(--preto-100, #464646);
+        font-size: 22px;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    
+    }
+
+    .sobre_mi_parrafo{
+        display: flex;
+        flex-direction: column;
+        align-self: stretch;
+
+    }
+
+    .firma{
+        width: 140px;
+        height: 52px;
+    }
+  
+}
